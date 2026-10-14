@@ -43,6 +43,7 @@ This document explains how the Harness is built and why. For the measurement rul
 
 ## Failure handling
 
-- A failed Run stops the Session. The log shows the failed command.
-- The `DONE` marker exists only after every Run ends. A directory without `DONE` is incomplete.
+- A failed Test writes `<test> run N failed` to `log.txt`. The Session continues with the next Test.
+- The Session writes the `DONE` marker at the end, also after a failed Run. Search `log.txt` for `failed` before you use a Session.
+- The network Tests run only when `~/benchmark/peer.ip` exists on the Instance.
 - `peer/delete.sh` lists resources with the Peer tag after deletion. An empty list shows that no resource remains.
