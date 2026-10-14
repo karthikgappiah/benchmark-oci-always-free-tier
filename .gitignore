@@ -1,0 +1,6 @@
+harness/config.env
+harness/.build/
+results/**/log.txt
+.DS_Store
+*.key
+*.pem
