@@ -1,0 +1,11 @@
++DT:sha256:10:8192
++R:2228996:sha256:10.000000
+Forked child 0
+Got: +H:8192 from 0
+Got: +F:25:sha256:1825993523.20 from 0
+version: 3.5.5
+built on: Tue Jul 28 00:00:00 2026 UTC
+options: bn(64,64)
+compiler: gcc -fPIC -pthread -Wa,--noexecstack -Wall -O3 -O2 -flto=auto -ffat-lto-objects -fexceptions -g -grecord-gcc-switches -pipe -Wall -Werror=format-security -Wp,-D_FORTIFY_SOURCE=2 -Wp,-D_GLIBCXX_ASSERTIONS -specs=/usr/lib/rpm/redhat/redhat-hardened-cc1 -fstack-protector-strong -specs=/usr/lib/rpm/redhat/redhat-annobin-cc1 -fasynchronous-unwind-tables -fstack-clash-protection -Wa,--noexecstack -Wa,--generate-missing-build-notes=yes -specs=/usr/lib/rpm/redhat/redhat-hardened-ld -specs=/usr/lib/rpm/redhat/redhat-annobin-cc1 -DOPENSSL_USE_NODELETE -DOPENSSL_PIC -DOPENSSL_BUILDING_OPENSSL -DZLIB -DNDEBUG -D_GNU_SOURCE -DPURIFY -DDEVRANDOM="\\"/dev/urandom\\"" -DOPENSSL_PEDANTIC_ZEROIZATION -DREDHAT_FIPS_VENDOR="\\"Red Hat Enterprise Linux OpenSSL FIPS Provider\\"" -DREDHAT_FIPS_VERSION="\\"3.5.5-cd96321cf962c2ea\\"" -DSYSTEM_CIPHERS_FILE="/etc/crypto-policies/back-ends/opensslcnf.config"
+CPUINFO: OPENSSL_armcap=0xbd
+sha256         1825993.52k

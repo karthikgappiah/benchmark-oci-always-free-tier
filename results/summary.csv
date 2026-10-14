@@ -1,0 +1,79 @@
+session,test,metric,unit,runs,median,min,max,spread_percent
+2026-10-13-session-1,cpu aes-256-gcm 1-thread,throughput,GB/s,4,2.239,2.236,2.249,0.6
+2026-10-13-session-1,cpu aes-256-gcm 2-thread,throughput,GB/s,4,4.479,4.475,4.484,0.2
+2026-10-13-session-1,cpu sha256 1-thread,throughput,GB/s,4,1.820,1.818,1.825,0.4
+2026-10-13-session-1,cpu sha256 2-thread,throughput,GB/s,4,3.644,3.637,3.645,0.2
+2026-10-13-session-1,memory stream,add,GB/s,4,34.002,33.904,34.013,0.3
+2026-10-13-session-1,memory stream,copy,GB/s,4,37.906,37.713,38.002,0.8
+2026-10-13-session-1,memory stream,scale,GB/s,4,39.260,39.151,39.411,0.7
+2026-10-13-session-1,memory stream,triad,GB/s,4,34.030,33.969,34.049,0.2
+2026-10-13-session-1,network fwd-p1,retransmits,count,4,10526.500,10328.000,11073.000,7.1
+2026-10-13-session-1,network fwd-p1,throughput,Gbit/s,4,2.050,2.050,2.050,0.0
+2026-10-13-session-1,network fwd-p4,retransmits,count,4,1844.500,800.000,2999.000,119.2
+2026-10-13-session-1,network fwd-p4,throughput,Gbit/s,4,2.047,2.038,2.049,0.5
+2026-10-13-session-1,network rev-p1,retransmits,count,4,10693.500,5571.000,11017.000,50.9
+2026-10-13-session-1,network rev-p1,throughput,Gbit/s,4,2.053,2.053,2.053,0.0
+2026-10-13-session-1,storage rand-read,bandwidth,MiB/s,4,23.332,23.299,23.556,1.1
+2026-10-13-session-1,storage rand-read,iops,IOPS,4,5971.947,5963.485,6029.420,1.1
+2026-10-13-session-1,storage rand-read,latency_mean,us,4,5344.450,5293.948,5351.927,1.1
+2026-10-13-session-1,storage rand-write,bandwidth,MiB/s,4,23.292,23.286,23.529,1.0
+2026-10-13-session-1,storage rand-write,iops,IOPS,4,5961.751,5960.319,6022.524,1.0
+2026-10-13-session-1,storage rand-write,latency_mean,us,4,5355.025,5302.047,5356.658,1.0
+2026-10-13-session-1,storage seq-read,bandwidth,MiB/s,4,48.823,48.818,48.825,0.0
+2026-10-13-session-1,storage seq-read,iops,IOPS,4,48.328,48.324,48.331,0.0
+2026-10-13-session-1,storage seq-read,latency_mean,us,4,329126.968,329106.318,329171.190,0.0
+2026-10-13-session-1,storage seq-write,bandwidth,MiB/s,4,48.813,48.808,48.822,0.0
+2026-10-13-session-1,storage seq-write,iops,IOPS,4,48.319,48.313,48.328,0.0
+2026-10-13-session-1,storage seq-write,latency_mean,us,4,329154.919,329086.133,329174.087,0.0
+2026-10-14-session-2,cpu aes-256-gcm 1-thread,throughput,GB/s,4,2.248,2.239,2.249,0.5
+2026-10-14-session-2,cpu aes-256-gcm 2-thread,throughput,GB/s,4,4.484,4.476,4.490,0.3
+2026-10-14-session-2,cpu sha256 1-thread,throughput,GB/s,4,1.820,1.817,1.826,0.5
+2026-10-14-session-2,cpu sha256 2-thread,throughput,GB/s,4,3.592,3.503,3.644,3.9
+2026-10-14-session-2,memory stream,add,GB/s,4,33.912,33.815,33.987,0.5
+2026-10-14-session-2,memory stream,copy,GB/s,4,37.812,37.639,37.907,0.7
+2026-10-14-session-2,memory stream,scale,GB/s,4,39.357,39.313,39.397,0.2
+2026-10-14-session-2,memory stream,triad,GB/s,4,33.994,33.786,34.054,0.8
+2026-10-14-session-2,network fwd-p1,retransmits,count,4,11109.500,7769.000,11665.000,35.1
+2026-10-14-session-2,network fwd-p1,throughput,Gbit/s,4,2.049,1.537,2.050,25.0
+2026-10-14-session-2,network fwd-p4,retransmits,count,4,1827.000,856.000,2069.000,66.4
+2026-10-14-session-2,network fwd-p4,throughput,Gbit/s,4,2.041,2.038,2.042,0.2
+2026-10-14-session-2,network rev-p1,retransmits,count,4,10877.500,8578.000,11178.000,23.9
+2026-10-14-session-2,network rev-p1,throughput,Gbit/s,4,2.053,2.052,2.053,0.0
+2026-10-14-session-2,storage rand-read,bandwidth,MiB/s,4,23.330,23.292,23.382,0.4
+2026-10-14-session-2,storage rand-read,iops,IOPS,4,5971.379,5961.786,5984.874,0.4
+2026-10-14-session-2,storage rand-read,latency_mean,us,4,5345.006,5332.854,5353.714,0.4
+2026-10-14-session-2,storage rand-write,bandwidth,MiB/s,4,23.295,23.291,23.309,0.1
+2026-10-14-session-2,storage rand-write,iops,IOPS,4,5962.783,5961.486,5966.216,0.1
+2026-10-14-session-2,storage rand-write,latency_mean,us,4,5353.685,5350.465,5356.808,0.1
+2026-10-14-session-2,storage seq-read,bandwidth,MiB/s,4,48.820,48.818,48.825,0.0
+2026-10-14-session-2,storage seq-read,iops,IOPS,4,48.326,48.324,48.331,0.0
+2026-10-14-session-2,storage seq-read,latency_mean,us,4,329151.407,329112.033,329158.606,0.0
+2026-10-14-session-2,storage seq-write,bandwidth,MiB/s,4,48.816,48.809,48.820,0.0
+2026-10-14-session-2,storage seq-write,iops,IOPS,4,48.322,48.315,48.326,0.0
+2026-10-14-session-2,storage seq-write,latency_mean,us,4,329128.318,329115.470,329180.558,0.0
+2026-10-14-session-3,cpu aes-256-gcm 1-thread,throughput,GB/s,4,2.242,2.237,2.248,0.5
+2026-10-14-session-3,cpu aes-256-gcm 2-thread,throughput,GB/s,4,4.475,4.285,4.488,4.5
+2026-10-14-session-3,cpu sha256 1-thread,throughput,GB/s,4,1.820,1.818,1.826,0.4
+2026-10-14-session-3,cpu sha256 2-thread,throughput,GB/s,4,3.642,3.632,3.644,0.3
+2026-10-14-session-3,memory stream,add,GB/s,4,33.933,33.765,34.040,0.8
+2026-10-14-session-3,memory stream,copy,GB/s,4,37.602,37.410,37.879,1.2
+2026-10-14-session-3,memory stream,scale,GB/s,4,39.325,39.316,39.401,0.2
+2026-10-14-session-3,memory stream,triad,GB/s,4,34.023,33.908,34.147,0.7
+2026-10-14-session-3,network fwd-p1,retransmits,count,4,10705.500,10404.000,10843.000,4.1
+2026-10-14-session-3,network fwd-p1,throughput,Gbit/s,4,2.050,2.049,2.050,0.0
+2026-10-14-session-3,network fwd-p4,retransmits,count,4,1482.500,854.000,2769.000,129.2
+2026-10-14-session-3,network fwd-p4,throughput,Gbit/s,4,2.049,2.046,2.049,0.2
+2026-10-14-session-3,network rev-p1,retransmits,count,4,10587.000,9970.000,11487.000,14.3
+2026-10-14-session-3,network rev-p1,throughput,Gbit/s,4,2.053,2.053,2.053,0.0
+2026-10-14-session-3,storage rand-read,bandwidth,MiB/s,4,23.328,23.302,23.359,0.2
+2026-10-14-session-3,storage rand-read,iops,IOPS,4,5971.013,5964.386,5979.211,0.2
+2026-10-14-session-3,storage rand-read,latency_mean,us,4,5345.485,5338.345,5351.308,0.2
+2026-10-14-session-3,storage rand-write,bandwidth,MiB/s,4,23.292,23.291,23.297,0.0
+2026-10-14-session-3,storage rand-write,iops,IOPS,4,5961.818,5961.553,5963.120,0.0
+2026-10-14-session-3,storage rand-write,latency_mean,us,4,5354.660,5354.265,5355.152,0.0
+2026-10-14-session-3,storage seq-read,bandwidth,MiB/s,4,48.819,48.815,48.823,0.0
+2026-10-14-session-3,storage seq-read,iops,IOPS,4,48.324,48.321,48.329,0.0
+2026-10-14-session-3,storage seq-read,latency_mean,us,4,329142.263,329124.447,329174.371,0.0
+2026-10-14-session-3,storage seq-write,bandwidth,MiB/s,4,48.818,48.812,48.822,0.0
+2026-10-14-session-3,storage seq-write,iops,IOPS,4,48.324,48.318,48.328,0.0
+2026-10-14-session-3,storage seq-write,latency_mean,us,4,329119.337,329103.966,329160.960,0.0
