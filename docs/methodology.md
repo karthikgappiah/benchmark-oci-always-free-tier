@@ -51,7 +51,7 @@ Each Test records the tool version and the exact command line.
 
 ## Sessions
 
-The measurement has 3 Sessions that start about 5 hours apart. The Sessions start from timers on the Instance. This schedule does not separate variation between days. Shared physical hosts can change the result over a longer time. The report states this limit.
+The measurement has 3 Sessions that start about 1 hour apart in one evening. The Sessions start from timers on the Instance. This schedule does not separate variation between days. Shared physical hosts can change the result over a longer time. The report states this limit.
 
 ## Network Peer
 
