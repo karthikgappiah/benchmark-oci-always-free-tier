@@ -59,7 +59,7 @@ PATTERNS = [
 
 def main(results_dir, out_csv):
     data = defaultdict(list)  # (session, test, metric, unit) -> [(run, value)]
-    for session in sorted(Path(results_dir).glob("session-*")):
+    for session in sorted(Path(results_dir).glob("*session-*")):
         for path in sorted(session.iterdir()):
             for pattern, name, parse in PATTERNS:
                 m = pattern.fullmatch(path.name)
