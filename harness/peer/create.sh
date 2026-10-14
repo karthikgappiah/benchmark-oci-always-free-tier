@@ -14,10 +14,24 @@ oci network nsg rules add --profile "$OCI_PROFILE" --nsg-id "$nsg_id" --security
 cloud_init=$(mktemp)
 cat > "$cloud_init" <<'CI'
 #cloud-config
+write_files:
+  - path: /etc/systemd/system/iperf3.service
+    content: |
+      [Unit]
+      Description=iperf3 server
+      After=network-online.target
+
+      [Service]
+      ExecStart=/usr/bin/iperf3 -s
+      Restart=always
+
+      [Install]
+      WantedBy=multi-user.target
 runcmd:
   - dnf -y install iperf3
   - firewall-cmd --permanent --add-port=5201/tcp || true
   - firewall-cmd --reload || true
+  - systemctl daemon-reload
   - systemctl enable --now iperf3
 CI
 inst_id=$(oci compute instance launch --profile "$OCI_PROFILE" -c "$COMPARTMENT_ID" \
